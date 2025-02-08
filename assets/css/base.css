@@ -190,6 +190,7 @@ body {
     left: 5vw;
     height: 70vh;
     z-index: 0;
+    opacity: 40%;
 }
 
 .master-container .main-icon-bg {

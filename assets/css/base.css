@@ -147,7 +147,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    min-height: 90vh;
+    min-height: 100vh;
     justify-content: center;
     padding: 0 10vw;
 }
@@ -163,6 +163,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
+    z-index: 1;
 }
 
 .main-wrapper {
@@ -186,8 +187,8 @@ body {
 .master-container .icon-bg {
     position: absolute;
     top: 90px;
-    left: 130px;
-    height: 550px;
+    left: 5vw;
+    height: 70vh;
     z-index: 0;
 }
 
